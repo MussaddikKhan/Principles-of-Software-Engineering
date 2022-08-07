@@ -1,0 +1,50 @@
+body {
+    background-color: #DAEAF1;
+}
+
+h1 {
+     
+    color: #1be725;
+    font-family: cursive;
+    font-weight: bolder;
+    letter-spacing: 2px; /* it is use for specing thte letter in word */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    text-align: center;
+    /* text-shadow: 5px 5px 4px red;  For giving shadow to text text - shadow */
+
+}
+
+h2 {
+    color: #FF06B7;
+    font-variant-caps: petite-caps;
+    text-decoration: underline;
+    text-decoration-style:double;
+    text-decoration-thickness: 2px;
+    
+   
+}
+/* ul{
+    list-style-type: circle;  If you use bullets in our website then you should specifies list style 
+} */
+
+hr {
+    border-style: dotted;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: white;
+    width: 80px;
+    border-width: 10px;
+}
+p{
+    text-indent: 80px;  /* For giving space to the first line of paragraph text - indent  */
+    font-weight:600;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+  
+
+    /* margin-left: 100px;   The margine is use for all paragraph not for single line if you should change the paragraph in all left side so use margine another use &emsp in a single line code of html */
+}
